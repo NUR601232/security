@@ -1,0 +1,23 @@
+{
+  "roles": [
+    {
+      "role": "Administrator",
+      "permissions": [
+        { "permission": "ADMIN_SEC" },
+        { "permission": "ADMIN_PROYECTOS" },
+        { "permission": "ADMIN_DONACIONES" },
+        { "permission": "ADMIN_REQUISITOS" }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "user": "admin",
+      "password": "admin@123",
+      "email": "admin@123.com",
+      "userroles": [
+        { "role": "Administrator" }
+      ]
+    }
+  ]
+}

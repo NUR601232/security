@@ -1,0 +1,26 @@
+[
+  {
+    "Mnemonic": "ADMIN_SEC",
+    "Module": "Security",
+    "Name": "Security Management",
+    "Description": "Permite al usuario administrar las configuraciones de seguridad."
+  },
+  {
+    "Mnemonic": "ADMIN_PROYECTOS",
+    "Module": "Proyectos",
+    "Name": "Proyecto Management",
+    "Description": "Permite al usuario adminisrar los proyectos."
+  },
+  {
+    "Mnemonic": "ADMIN_DONACIONES",
+    "Module": "Donaciones",
+    "Name": "Donacion Management",
+    "Description": "Permite al usuario adminisrar las donaciones."
+  },
+  {
+    "Mnemonic": "ADMIN_REQUISITOS",
+    "Module": "Requisitos",
+    "Name": "Requisito Management",
+    "Description": "Permite al usuario adminisrar los requisitos."
+  }
+] 
