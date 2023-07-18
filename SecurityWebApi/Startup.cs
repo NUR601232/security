@@ -20,6 +20,15 @@ namespace SecurityWebApi
             /*services.AddDbContext<SecurityDbContext>(options =>
                 options.UseMySql(Configuration.GetConnectionString("DbConnectionString")));*/
             services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.SetIsOriginAllowed(_ => true)
+                                      .AllowAnyMethod()
+                                      .AllowAnyHeader()
+                                      .AllowCredentials());
+            });
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen(c =>

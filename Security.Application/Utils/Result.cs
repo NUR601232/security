@@ -1,4 +1,4 @@
-﻿namespace Security.Application.Utils
+﻿namespace Application.Utils
 {
     public class Result
     {
